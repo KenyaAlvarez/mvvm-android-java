@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.kenya.mvvm.R;
+import com.kenya.mvvm_android.UI.LiveDataActivity;
+import com.kenya.mvvm_android.UI.UserViewModelActivity;
+import com.kenya.mvvm_android.UI.ViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button btViewModel;
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btUserViewModel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), UserViewModelActivity.class));
+                startActivity(new Intent(getApplicationContext(), UserViewModelActivity.class));
             }
         });
 
@@ -45,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         btLiveData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), LiveDataActivity.class));
+                startActivity(new Intent(getApplicationContext(), LiveDataActivity.class));
             }
         });
 

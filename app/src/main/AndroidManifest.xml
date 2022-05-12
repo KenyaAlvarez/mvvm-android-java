@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mvvmandroid">
         <activity
-            android:name=".ViewModelActivity"
+            android:name=".UI.LiveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.UserViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ViewModelActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

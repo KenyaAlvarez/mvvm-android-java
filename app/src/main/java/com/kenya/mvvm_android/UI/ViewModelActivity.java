@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android;
+package com.kenya.mvvm_android.UI;
 
 import android.os.Bundle;
 import android.util.Log;
