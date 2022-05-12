@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.kenya.mvvm.R;
+
 public class MainActivity extends AppCompatActivity {
     private Button btViewModel;
     private Button btUserViewModel;
