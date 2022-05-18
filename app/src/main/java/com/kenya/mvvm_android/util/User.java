@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android.Util;
+package com.kenya.mvvm_android.util;
 
 public class User {
 

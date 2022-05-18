@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android.UI;
+package com.kenya.mvvm_android.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.kenya.mvvm.R;
-import com.kenya.mvvm_android.Util.User;
+import com.kenya.mvvm_android.util.User;
 import com.kenya.mvvm_android.viewmodel.UserViewModel;
 
 import java.util.ArrayList;

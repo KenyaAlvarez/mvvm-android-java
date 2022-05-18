@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.kenya.mvvm_android.Util.User;
+import com.kenya.mvvm_android.util.User;
 
 import java.util.ArrayList;
 import java.util.List;

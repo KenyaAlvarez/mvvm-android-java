@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mvvmandroid">
         <activity
-            android:name=".UI.DataBindingActivity"
+            android:name=".ui.DBLDActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.LiveDataActivity"
+            android:name=".ui.DataBindingActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.UserViewModelActivity"
+            android:name=".ui.LiveDataActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.ViewModelActivity"
+            android:name=".ui.UserViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ViewModelActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

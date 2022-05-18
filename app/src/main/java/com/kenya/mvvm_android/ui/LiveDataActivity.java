@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android.UI;
+package com.kenya.mvvm_android.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.kenya.mvvm.R;
-import com.kenya.mvvm_android.Util.User;
+import com.kenya.mvvm_android.util.User;
 import com.kenya.mvvm_android.viewmodel.LiveDataViewModel;
 
 import java.util.List;

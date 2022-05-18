@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android.UI;
+package com.kenya.mvvm_android.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import com.kenya.mvvm.R;
 import com.kenya.mvvm.databinding.ActivityDataBindingBinding;
-import com.kenya.mvvm_android.Util.User;
+import com.kenya.mvvm_android.util.User;
 
 public class DataBindingActivity extends AppCompatActivity {
     private User user;

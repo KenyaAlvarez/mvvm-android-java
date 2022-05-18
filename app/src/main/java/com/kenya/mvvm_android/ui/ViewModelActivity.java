@@ -1,4 +1,4 @@
-package com.kenya.mvvm_android.UI;
+package com.kenya.mvvm_android.ui;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.kenya.mvvm.R;
-import com.kenya.mvvm_android.Util.Sumar;
+import com.kenya.mvvm_android.util.Sumar;
 import com.kenya.mvvm_android.viewmodel.SumarViewModel;
 
 public class ViewModelActivity extends AppCompatActivity {

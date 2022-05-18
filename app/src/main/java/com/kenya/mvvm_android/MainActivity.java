@@ -8,10 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.kenya.mvvm.R;
-import com.kenya.mvvm_android.UI.DataBindingActivity;
-import com.kenya.mvvm_android.UI.LiveDataActivity;
-import com.kenya.mvvm_android.UI.UserViewModelActivity;
-import com.kenya.mvvm_android.UI.ViewModelActivity;
+import com.kenya.mvvm_android.ui.DBLDActivity;
+import com.kenya.mvvm_android.ui.DataBindingActivity;
+import com.kenya.mvvm_android.ui.LiveDataActivity;
+import com.kenya.mvvm_android.ui.UserViewModelActivity;
+import com.kenya.mvvm_android.ui.ViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button btViewModel;
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         btDBLABinding.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // startActivity(new Intent(getApplicationContext(), DBLDActivity.class));
+                startActivity(new Intent(getApplicationContext(), DBLDActivity.class));
             }
         });
     }
