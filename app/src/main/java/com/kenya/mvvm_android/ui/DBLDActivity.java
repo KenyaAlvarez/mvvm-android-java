@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import com.kenya.mvvm.R;
 import com.kenya.mvvm.databinding.ActivityDataBindingBinding;
+import com.kenya.mvvm.databinding.ActivityDbldactivityBinding;
 import com.kenya.mvvm_android.util.User;
 import com.kenya.mvvm_android.viewmodel.DBLDViewModel;
 
@@ -17,7 +18,7 @@ public class DBLDActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ActivityDataBindingBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_dbldactivity);
+        ActivityDbldactivityBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_dbldactivity);
         binding.setLifecycleOwner(this);
         viewModel = ViewModelProviders.of(this).get(DBLDViewModel.class);
         binding.setViewModel(viewModel);

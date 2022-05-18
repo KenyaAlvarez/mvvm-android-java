@@ -24,5 +24,6 @@ public class DBLDViewModel extends ViewModel {
 
     public void updateUser(){
         User user = new User("Laura", "23");
+        this.user.setValue(user);
     }
 }
