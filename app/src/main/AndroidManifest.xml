@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mvvmandroid">
         <activity
+            android:name=".UI.DataBindingActivity"
+            android:exported="false" />
+        <activity
             android:name=".UI.LiveDataActivity"
             android:exported="false" />
         <activity

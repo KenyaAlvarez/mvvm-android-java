@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/external/udemy/mvvm-android-java/app/src/main/res/layout/activity_data_binding.xml" value="0.1" />
         <entry key="..\:/external/udemy/mvvm-android-java/app/src/main/res/layout/activity_live_data.xml" value="0.22447916666666667" />
         <entry key="..\:/external/udemy/mvvm-android-java/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/external/udemy/mvvm-android-java/app/src/main/res/layout/activity_user_view_model.xml" value="0.22447916666666667" />
